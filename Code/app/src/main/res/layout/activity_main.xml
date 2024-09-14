@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:layout_width="173dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/button1"
+        android:onClick="f1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ruler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/img2"
+        android:layout_width="173dp"
+        android:layout_height="145dp"
+        android:contentDescription="@string/button2"
+        android:onClick="f2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/thermometer"
+        app:layout_constraintBottom_toTopOf="@+id/img3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+    <ImageButton
+        android:id="@+id/img3"
+        android:layout_width="173dp"
+        android:layout_height="145dp"
+        android:contentDescription="@string/button3"
+        android:onClick="f3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dumbell"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        app:layout_constraintVertical_bias="0.698" />
+</androidx.constraintlayout.widget.ConstraintLayout>

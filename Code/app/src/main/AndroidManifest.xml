@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Praman"
+        tools:targetApi="31">
+        <activity
+            android:name=".Pound"
+            android:label="Pounds"
+            android:parentActivityName=".Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Ounce"
+            android:label="Ounces"
+            android:parentActivityName=".Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Kilogram"
+            android:label="Kilograms"
+            android:parentActivityName=".Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Gram"
+            android:label="Grams"
+            android:parentActivityName=".Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Milligram"
+            android:label="Milligrams"
+            android:parentActivityName=".Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Kelvin"
+            android:label="Kelvin"
+            android:parentActivityName=".Temperature"
+            android:exported="false" />
+        <activity
+            android:name=".Fahrenheite"
+            android:label="Fahrenheite"
+            android:parentActivityName=".Temperature"
+            android:exported="false" />
+        <activity
+            android:name=".Celsius"
+            android:label="Celsius"
+            android:parentActivityName=".Temperature"
+            android:exported="false" />
+        <activity
+            android:name=".Mile"
+            android:label="Miles"
+            android:parentActivityName=".Length"
+            android:exported="false" />
+        <activity
+            android:name=".Foot"
+            android:label="Feet"
+            android:parentActivityName=".Length"
+            android:exported="false" />
+        <activity
+            android:name=".Yard"
+            android:label="Yards"
+            android:parentActivityName=".Length"
+            android:exported="false" />
+        <activity
+            android:name=".Inch"
+            android:label="Inches"
+            android:parentActivityName=".Length"
+            android:exported="false" />
+        <activity
+            android:name=".Kilometer"
+            android:label="Kilometers"
+            android:parentActivityName=".Length"
+            android:exported="false" />
+        <activity
+            android:name=".Meter"
+            android:label="Meters"
+            android:parentActivityName=".Length"
+            android:exported="false" />
+        <activity
+            android:name=".Centimeter"
+            android:label="Centimeters"
+            android:parentActivityName=".Length"
+            android:exported="false" />
+        <activity
+            android:name=".Weight"
+            android:label="Weights"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Temperature"
+            android:label="Temperature"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Length"
+            android:label="Length"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

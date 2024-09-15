@@ -8,9 +8,6 @@
 - **Length Conversions**: Convert between Meters, Kilometers, Centimeters, Inches, Feet, Yards, Miles.
 - **Temperature Conversions**: Convert between Celsius, Fahrenheit, and Kelvin.
 
-## Screenshot
-
-
 ### Prerequisites
 
 - Android Studio
